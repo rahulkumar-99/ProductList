@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: rgb(248, 246, 253);
+}
+
+button {
+  max-width: 100px;
+}
+
+td {
+  padding-left: 10px;
+}
+
+.td-data {
+  padding-left: 10px;
+}
+
+.td-image {
+  padding-left: 10px;
+}
+
+.app {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid rgb(194, 178, 194);
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(231, 214, 231);
+  box-shadow: 5px 10px #888888;
+}
+
+.products {
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* Contact.js */
+.insert {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.insert-h1 {
+  margin-bottom: 30px;
+}
+
+.insert-input,
+textarea {
+  padding: 20px;
+  border-radius: 3px;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  /* border: none; */
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+  width: 450px;
+}
+
+.insert-input:focus,
+textarea:focus {
+  border: 1px solid rgb(0, 0, 196);
+}
+
+.insert-textarea {
+  height: 150px;
+  max-width: 400px;
+  min-height: 100px;
+}
+
+.insert-label {
+  padding-bottom: 10px;
+  color: rgb(0, 0, 32);
+  font-weight: bold;
+}
+
+.insert-button {
+  background-color: rgb(2, 2, 110);
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.insert-button:hover {
+  background-color: rgb(0, 0, 196);
+}
+
+.button3 {
+  display: block;
+  float: right;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.button4 {
+  display: block;
+  padding-top: 10px;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+  width: auto;
+}
+.button3:hover {
+  background-color: #4095c6;
+}
+
+.button4:hover {
+  background-color: #4095c6;
+}
+
+img {
+  max-width: 100px;
+  height: 100px;
+}
